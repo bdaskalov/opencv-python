@@ -35,7 +35,6 @@ matrix:
         - DOCKER_IMAGE=quay.io/pypa/manylinux1_x86_64
         - ENABLE_CONTRIB=0
 
-
 before_install:
     - echo $ENABLE_CONTRIB > contrib.enabled
     - source multibuild/common_utils.sh
